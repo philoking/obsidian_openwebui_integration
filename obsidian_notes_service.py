@@ -16,7 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-VAULT_PATH = r"/mnt/raid_volume/notes"
+VAULT_PATH = r"/mnt/raid_volume/notes" # Update with your vault location, this is a linux path but windows paths work also e:\notes
 
 def collect_weekly_obsidian_notes():
     today = datetime.now()
